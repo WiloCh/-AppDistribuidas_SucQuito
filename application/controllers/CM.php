@@ -90,11 +90,13 @@ class CM extends CI_Controller {
 		curl_setopt($ch1, CURLOPT_RETURNTRANSFER, true);
 		$medicos = json_decode(curl_exec($ch1));
 		curl_close($ch1);
+		var_dump($medicos);
+		
 		$datos = [
 			"empleados" => $empleados,
 			"medicos" => $medicos
 		];
-		$this->load->view('medico_page', $datos);
+		//$this->load->view('medico_page', $datos);
 	}
 	public function crearMedico()
 	{

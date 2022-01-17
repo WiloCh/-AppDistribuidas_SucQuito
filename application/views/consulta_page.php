@@ -132,7 +132,7 @@
                                                                     </div>
                                                                     <div class="col-8">
                                                                         <select class="form-select" name="cod_esp" aria-describedby="espHelp">
-                                                                            <option selected>Seleccione un Empleado</option>
+                                                                            <option selected>Seleccione una Especialidad</option>
                                                                             <?php
                                                                                 foreach($especialidades as $especialidad)
                                                                                 {
@@ -300,7 +300,7 @@
                                                                             </div>
                                                                             <div class="col-8">
                                                                                 <select class="form-select" name="cod_esp" aria-describedby="espHelp">
-                                                                                    <option selected>Seleccione un Empleado</option>
+                                                                                    <option selected>Seleccione una Especialidad</option>
                                                                                     <?php
                                                                                         foreach($especialidades as $especialidad)
                                                                                         {
